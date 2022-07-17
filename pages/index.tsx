@@ -9,7 +9,7 @@ const Home: NextPage = () => {
   return (
       <>
         <Layout>
-          <section className="mt-24 pt-40 pb-12 bg-blueGray-100">
+          <section className="mt-20 pt-40 pb-12 bg-blueGray-100">
             <div className="container text-center">
               <h1 className="text-2xl lg:text-5xl font-bold mb-5 wow animate__animated animate__fadeIn animated">Our Team</h1>
               <ul className="mx-auto text-gray-500 text-sm lg:text-sm pb-12 wow animate__animated animate__fadeIn animated">
@@ -27,7 +27,7 @@ const Home: NextPage = () => {
                   世界中から <span className="text-blue-500">優秀な</span> <br />
                   エンジニアが集結
                 </h2>
-                <p className="text-blueGray-400 leading-loose wow animate__animated animate__fadeIn animated" data-wow-delay=".1s">要件定義から開発、保守、運用まで一貫して担当可能です</p>
+                <p className="text-blueGray-400 leading-loose wow animate__animated animate__fadeIn animated" data-wow-delay=".1s">要件定義から開発、保守、運用まで一貫して担当可能です。</p>
               </div>
               <div className="flex flex-wrap">
                 <div className="w-full md:w-1/2 py-5 md:px-5">
@@ -35,7 +35,7 @@ const Home: NextPage = () => {
                     <div className="flex items-center mb-4">
                       <img className="h-16 w-16 rounded-full object-cover" src="/assets/imgs/placeholders/avatar-1.png" alt="Monst" />
                       <div className="pl-4">
-                        <strong className="mt-6 mb-2 text-md">Geraldine Tusoy</strong>
+                        <strong className="mt-6 mb-2 text-md">Shoma mano</strong>
                         <p className="text-gray-500 text-xs mt-3">CEO, Co Founders</p>
                       </div>
                     </div>
