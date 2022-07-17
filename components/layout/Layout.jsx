@@ -4,8 +4,9 @@ import BackToTop from "../elements/BackToTop";
 import Footer from "./Footer";
 import Header from "./Header";
 import MobileMenu from "./MobileMenu";
+import Script from "next/script";
 
-const Layout = ({ children }) => {
+const Layout = ({children}) => {
     const [hiddenClass, setHiddenClass] = useState("hidden");
 
     const handleHidden = () => setHiddenClass("");
@@ -20,7 +21,7 @@ const Layout = ({ children }) => {
         <>
             <Head>
                 <title>Monst - NextJs Tailwind CSS Landing Page</title>
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
+                <link rel="preconnect" href="https://fonts.googleapis.com"/>
                 <link
                     rel="preconnect"
                     href="https://fonts.gstatic.com"
@@ -33,20 +34,21 @@ const Layout = ({ children }) => {
                 <script
                     src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
                     integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
-                    crossorigin="anonymous"
+                    crossOrigin="anonymous"
                     referrerpolicy="no-referrer"
+                    async
                 ></script>
                 <script>new WOW().init();</script>
             </Head>
             <div className="main font-body text-body">
-                <Header handleHidden={handleHidden} />
+                <Header handleHidden={handleHidden}/>
                 <MobileMenu
                     hiddenClass={hiddenClass}
                     handleRemove={handleRemove}
                 />
                 {children}
-                <Footer />
-                <BackToTop />
+                <Footer/>
+                <BackToTop/>
             </div>
         </>
     );
