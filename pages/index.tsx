@@ -36,7 +36,7 @@ const Home: NextPage = () => {
                       <img className="h-16 w-16 rounded-full object-cover" src="/assets/imgs/placeholders/avatar-1.png" alt="Monst" />
                       <div className="pl-4">
                         <strong className="mt-6 mb-2 text-md">Shoma mano</strong>
-                        <p className="text-gray-500 text-xs mt-3">CEO, Co Founders</p>
+                        <p className="text-gray-500 text-xs mt-3">Fullstack Engineer</p>
                       </div>
                     </div>
                     <p className="leading-loose text-blueGray-400 mb-5">Donec consequat tortor risus, at auctor felis consequat a. Donec quis dolor sem. Sed sollicitudin magna in hendrerit pulvinar. Vestibulum non quam velit.</p>
